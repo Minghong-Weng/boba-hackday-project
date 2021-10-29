@@ -182,7 +182,12 @@ for url in desert_urls_parent:
         html = website.read()
         soup = BeautifulSoup(html, "html.parser")
         
-        for EachPart in soup.select('div[class*="i-stars"]'):
+        yelp_ratings = soup.select('div[class*="i-stars"]')
+        
+        if len(yelp_ratings) <= 0:
+            continue
+        
+        for EachPart in yelp_ratings:
             rating = EachPart['aria-label']
             
             if sub_count == 0:
@@ -202,7 +207,7 @@ for url in desert_urls_parent:
         
         count+=10
         cycles+=1
-        time.sleep(20)
+        #time.sleep(20)
     
     new_dict["reviews"] = url_reviews
     new_dict["yelp_ratings"] = url_ratings
