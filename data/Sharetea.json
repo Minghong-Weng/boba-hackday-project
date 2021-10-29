@@ -1,46 +1,57 @@
 {
     "name": "Sharetea",
     "yelp_url": "https://www.yelp.com/biz/sharetea-san-diego-13",
+    "yelp_rating": 4.5,
     "reviews": [
         {
             "text": "My drink was made fast and was so suprise on how well it tasted you can tell they only use natural ingredients and can tell the effort they put into my drink",
-            "mycase_score": 2.875
+            "mycase_score": 2.875,
+            "yelp_rating": 5.0
         },
         {
             "text": "10/10 service10/10 taste of ube boba10/10 price for size of boba3/10 parking, very difficult to find parking in the outlet",
-            "mycase_score": 1.25
+            "mycase_score": 1.25,
+            "yelp_rating": 4.0
         },
         {
             "text": "*Late post*Went here a few weeks back. It was a cool place and everyone was real nice. Had the taro ice blended with pudding. It was very good and didnt last long. LOL. Parking is kind of tough especially in the evening. Would definitely go again whenever I am in the area.",
-            "mycase_score": 3.0439814815
+            "mycase_score": 3.0439814815,
+            "yelp_rating": 4.0
         },
         {
             "text": "Great spot to grab your daily boba tea. Clean and organized inside",
-            "mycase_score": 3.4722222222
+            "mycase_score": 3.4722222222,
+            "yelp_rating": 4.0
         },
         {
             "text": "I get so excited to see places like this doing well. Small, locally owned, and eager to please, businesses like Sharetea improve neighborhoods and support the community by selling local crafts and serving a high quality product. I will admit that when I initially saw my acai bowl that I thought it was pretty small for the money, especially since I ordered the \"large\" size for $11. Heres the thing, this acai bowl is DENSE. The acai wasnt loose and melty, the toppings were proportionate, and I finished my bowl feeling very satisfied. Dare I say full? Im very grateful to have a place like this in my neighborhood and will certainly be supporting. See you soon, Sharetea!",
-            "mycase_score": 2.771850471
+            "mycase_score": 2.771850471,
+            "yelp_rating": 5.0
         },
         {
             "text": "This Linda Vista location is very convenient for me as I work out at a nearby gym so I can grab a beverage here afterwards if necessary. Its the same menu as offered throughout the Sharetea chain. Unfortunately, parking in this narrow strip mall is just as bad as the shop on Convoy Street if not arguably worse because every space is so tightly packed.I usually get one of their fruit teas (Passion Fruit Green Tea or Hawaiian Fruit Tea with Aiju Jelly) which range in price from $4.25 to $4.50. Add another $0.75 for boba pearls and youre above the $5 mark after tax. The size of the drink and quality of the tea were pretty reasonable. The chewiness of the pearls was not quite up to the level of my favorite hangouts though.One aspect which I did find incredibly annoying is the $0.50 surcharge if you requested less ice for your drink. That used to not be the case when they first opened. I am not aware of another bubble tea shop that has such a policy either. I also dont understand why the boba cost is 50% more than elsewhere. On the other hand, this spot offers a frequent user card which is a bonus because the one in Kearny Mesa no longer does.",
-            "mycase_score": 2.2202380952
+            "mycase_score": 2.2202380952,
+            "yelp_rating": 3.0
         },
         {
             "text": "The taro milk tea was very good, and so was the passion fruit tea. You can choose the level of sweetness and amount of ice. The location is next to USD and theres a good donut shop nearby. Id go back.",
-            "mycase_score": 3.375
+            "mycase_score": 3.375,
+            "yelp_rating": 5.0
         },
         {
             "text": "I love at this place! Their blended drinks are my favorite! Matcha, Thai tea, Oreo... Their fruit and milk teas are great too. They also have a rewards card so after 10 stamps your next one is free or deeply discounted depending on what you order. Best boba in SD!",
-            "mycase_score": 3.6428571429
+            "mycase_score": 3.6428571429,
+            "yelp_rating": 5.0
         },
         {
             "text": "COVID-19 review:Been here several times and I havent had any complaints about the boba tea they offer. They have variety of tea and non-tea drinks too. Their bobas are always cooked right and the customer service is good here also. They only have one size. One thing to note though, their music is so loud that I feel like I have to yell every time. The place can be tight so you may want to wait outside due to the virus.",
-            "mycase_score": 2.5701530612
+            "mycase_score": 2.5701530612,
+            "yelp_rating": 5.0
         },
         {
             "text": "It wasnt bad but it tasted watery and sour I got the taro boba like I said it was bad but it wasnt good. Please dont get this if you hate watery or sour. Thank you!",
-            "mycase_score": 1.75
+            "mycase_score": 1.75,
+            "yelp_rating": 2.0
         }
     ],
     "shop_restaurant_mc_score": 2.6971302473981043

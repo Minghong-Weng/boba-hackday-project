@@ -131,6 +131,11 @@ def get_raw_review_data(url):
 
 list_of_restaurants = []
 
+def convert_star_rating_to_val(star_rating):
+    rating_parts = star_rating.split(" ")
+    return float(rating_parts[0])
+
+
 for url in desert_urls_parent:
     count = 0
     new_dict = {}
@@ -142,6 +147,9 @@ for url in desert_urls_parent:
     html = website.read()
     soup = BeautifulSoup(html, "html.parser")
     
+    #yelp rating
+    
+    
     # get name
     headers =soup.findAll("h1", {"class": "css-m7s7xv"})
     new_dict["shop_name"] = headers[0].text
@@ -152,9 +160,26 @@ for url in desert_urls_parent:
     # reviews
     
     url_reviews = []
+    url_ratings = []
     while 1:
         new_url = url + '?start=' + str(count)
         temp = get_raw_review_data(new_url)
+    
+        
+        sub_count = 0
+        
+        for EachPart in soup.select('div[class*="i-stars"]'):
+            rating = EachPart['aria-label']
+            
+            if sub_count == 0:
+                new_dict["yelp_rating"] = convert_star_rating_to_val(rating)
+            else:
+                url_ratings.append(convert_star_rating_to_val(rating))
+            sub_count+=1
+            if sub_count == 11:
+                break
+        
+        
         if(len(temp) > 0):
             url_reviews.extend(temp)
         
@@ -166,14 +191,16 @@ for url in desert_urls_parent:
         time.sleep(20)
     
     new_dict["reviews"] = url_reviews
+    new_dict["yelp_ratings"] = url_ratings
     
     list_of_restaurants.append(new_dict)
-    
+
+#print(list_of_restaurants)
+
 def avg_word(review):
     words = review.split()
     return (sum(len(word) for word in words) / len(words))
 
-# (x+1)*2.5
 
 # prepare data
 for shop in list_of_restaurants:
@@ -182,6 +209,7 @@ for shop in list_of_restaurants:
     
     new_object["name"] = shop["shop_name"]
     new_object["yelp_url"] = shop["yelp_url"]
+    new_object["yelp_rating"] = shop["yelp_rating"]
     new_object["reviews"] = []
     
     df = pd.DataFrame(np.array(shop["reviews"]), columns=['review'])
@@ -208,6 +236,7 @@ for shop in list_of_restaurants:
     df['polarity'] = df['cleaned_review'].apply(lambda x: TextBlob(x).sentiment[0])
     df['subjectivity'] = df['cleaned_review'].apply(lambda x: TextBlob(x).sentiment[1])
     df['mycase_score'] = df['polarity'].apply(lambda x: (float(x) + 1 ) * 2.5 )
+    df['yelp_rating'] = shop["yelp_ratings"]
     
     #sys.exit()
     
@@ -225,6 +254,7 @@ for shop in list_of_restaurants:
         review_object = {}
         review_object["text"] = df_object["review"]
         review_object["mycase_score"] = df_object["mycase_score"]
+        review_object["yelp_rating"] = df_object["yelp_rating"]
         new_object["reviews"].append(review_object)
         
     
