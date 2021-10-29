@@ -117,11 +117,11 @@ irv_urls = [
     'https://www.yelp.com/biz/boba-guys-costa-mesa',
     'https://www.yelp.com/biz/pink-pig-irvine',
     'https://www.yelp.com/biz/boba-junkie-santa-ana-santa-ana',
-    #'https://www.yelp.com/biz/cha-for-tea-irvine-9',
-    #'https://www.yelp.com/biz/sharetea-santa-ana-2',
-    #'https://www.yelp.com/biz/tastea-irvine-10',
-    #'https://www.yelp.com/biz/boba-square-tustin-18',
-    #'https://www.yelp.com/biz/sharetea-irvine-3'
+    'https://www.yelp.com/biz/cha-for-tea-irvine-9',
+    'https://www.yelp.com/biz/sharetea-santa-ana-2',
+    'https://www.yelp.com/biz/tastea-irvine-10',
+    'https://www.yelp.com/biz/boba-square-tustin-18',
+    'https://www.yelp.com/biz/sharetea-irvine-3'
     #'https://www.yelp.com/biz/orobae-irvine',
     #'https://www.yelp.com/biz/omomo-tea-shoppe-irvine',
     #'https://www.yelp.com/biz/eightfold-tea-shoppe-costa-mesa-2',
