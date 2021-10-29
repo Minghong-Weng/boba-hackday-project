@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 var review
-fs.readFile('./data/Sharetea.json', 'utf8', (err, jsonString) => {
+fs.readFile('./data/data.json', 'utf8', (err, jsonString) => {
   if (err) {
     console.log("Error reading file from disk:", err)
     return
@@ -15,3 +15,8 @@ fs.readFile('./data/Sharetea.json', 'utf8', (err, jsonString) => {
 })
 
 var parsed_review = JSON.parse(review.replace(/\n/g, ''))
+
+var map = new Map();
+for (var k of Object.keys(parsed_review)) {
+  map.set(k, parsed_review[k]);
+}
