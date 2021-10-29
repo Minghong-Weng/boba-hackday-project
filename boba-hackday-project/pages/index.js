@@ -105,7 +105,7 @@ export default function Home({ sortedSDData, sortedIrvineData }) {
               <BobaShopCard
                 key={`boba-shop-${index}`}
                 bobaShop={shopData}
-                location
+                location={location}
               />
             ))}
         </div>
