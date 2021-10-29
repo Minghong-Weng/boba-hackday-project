@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "name": "Sharetea",
+        "name": "Sharetea (Linda Vista)",
         "yelp_url": "https://www.yelp.com/biz/sharetea-san-diego-13",
         "yelp_rating": 4.5,
         "reviews": [
@@ -1924,7 +1924,7 @@
     },
     {
         "id": 17,
-        "name": "Sharetea",
+        "name": "Sharetea (Kearny Mesa)",
         "yelp_url": "https://www.yelp.com/biz/sharetea-san-diego-2",
         "yelp_rating": 3.5,
         "reviews": [
