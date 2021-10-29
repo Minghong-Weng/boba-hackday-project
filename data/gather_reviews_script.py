@@ -163,10 +163,14 @@ for url in desert_urls_parent:
     url_ratings = []
     count = 0
     cycles = 0
-    while 1 and cycles < 2:
+    while cycles < 2:
         new_url = url + '?start=' + str(count)
         temp = get_raw_review_data(new_url)
         review_num = len(temp)
+        
+        #if request fails do it again
+        if len(temp) == 0:
+            continue
     
         
         sub_count = 0
@@ -216,10 +220,16 @@ def avg_word(review):
 
 
 # prepare data
+id = 0
+
+data = {
+        "data": []
+}
 for shop in list_of_restaurants:
     
     new_object = {}
     
+    new_object["id"] = id
     new_object["name"] = shop["shop_name"]
     new_object["yelp_url"] = shop["yelp_url"]
     new_object["yelp_rating"] = shop["yelp_rating"]
@@ -270,8 +280,9 @@ for shop in list_of_restaurants:
         review_object["yelp_rating"] = df_object["yelp_rating"]
         new_object["reviews"].append(review_object)
         
+    data["data"].append(new_object)
     
-    json_object = json.dumps(new_object, indent = 4)
-    file_name = new_object["name"].replace(" ", "_") + ".json"
-    with open(file_name, "w") as outfile:
+json_object = json.dumps(data, indent = 4)
+file_name = "data.json"
+with open(file_name, "w") as outfile:
         outfile.write(json_object)
