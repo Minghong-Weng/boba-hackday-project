@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import * as React from "react";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -49,10 +48,8 @@ export async function getStaticProps(context) {
   };
 }
 
-const dataManager = new DataManager();
-
 export default function Home({ sortedSDData, sortedIrvineData }) {
-  const [location, setLocation] = React.useState("San Diego");
+  const [location, setLocation] = React.useState("");
 
   const handleChange = (event) => {
     setLocation(event.target.value);
@@ -83,7 +80,7 @@ export default function Home({ sortedSDData, sortedIrvineData }) {
           rating based on customer reviews.
         </p>
 
-        <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+        <FormControl variant="standard" sx={{ m: 1, minWidth: 130 }}>
           <InputLabel id="demo-simple-select-standard-label">
             Office Location
           </InputLabel>
