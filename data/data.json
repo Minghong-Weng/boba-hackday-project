@@ -113,6 +113,477 @@
                 }
             ],
             "shop_restaurant_mc_score": 2.945898141650192
+        },
+        {
+            "id": 1,
+            "name": "Gotcha Tea",
+            "yelp_url": "https://www.yelp.com/biz/gotcha-tea-san-diego",
+            "yelp_rating": 4.5,
+            "reviews": [
+                {
+                    "text": "I love a milk tea with boba, but Im very caffeine sensitive and cant have any too late. My favorite time for a nice boba drink is after my morning run, but so many place dont open until late morning or afternoon. Ive been on the lookout for a good morning place.Gotchas drinks are huge! They let you adjust the sweetness and ice level, which I always appreciate. I always like my sweetness adjusted down, but their boba is very warm, so I would recommend full ice. Overall, its a good drink.I dont think this is my favorite boba place, but its definitely my favorite thats open before 11:00! Glad to finally have a place for drinks in the morning.",
+                    "mycase_score": 3.2697368421,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "With so many decent/pretty good boba places to choose from in San Diego, its difficult to find a place that really stands out from rest.That being said, I really enjoyed the cheese foam winter oolong I had with boba added @ 50% sweetness. The boba was a bit too warm and heated up the drink, but the cheese foam was delicious. Ive had terrible grainy cheese foam from other places in San Diego. Gotcha does it right - rich and creamy with a savory finish that balanced out the sweetness of the tea just right! Reminded me of the cheese foam teas Ive had in Asia years ago.",
+                    "mycase_score": 3.1597222222,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "First off, I want to say that I love the tea from this place. Very fresh tasting fruit teas and full bodied milk teas with good boba. I am a fan of chewier boba, not the type that just disintegrates in your mouth. So the drinks here are great and I highly recommend them. The service however could use some work... I used to work in a boba shop so I can give my order rather quickly and hit all the parts I need to address (ice, sweetness, toppings, milk type, etc). Most places can keep up, but here you need to slow down and spell it out... then double check that they did it right. Twice, Ive ordered slowly and still noticed mistakes on the receipt after reiterating my order. They also have recently gotten rid of their size options and only offer 1 size, but just upcharge your drink to a large to compensate in their system. Kinda sucks when your drink costs 60 cents more than anticipated, and when you and your friend still get different sized cups after both being charged extra. The company itself could use some ironing out, but the drinks are still delicious!",
+                    "mycase_score": 3.1261904762,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "Went to the Poway location before pandemic, now that they are gone. Came to this location based on the good reviews. I ordered 4 season tea with no sugar and added boba, worst boba Ive ever tasted, its so hard and impossible to chew (believe me, I know how the chewy texture is like given Ive tried 90% of the boba places in San Diego) the 4 season tea, its just green tea, theres no after taste, if its originated from Taiwan, the 4 season tea should have given a refreshing tea taste.Very disappointed.",
+                    "mycase_score": 1.8898809524,
+                    "yelp_rating": 3.0
+                },
+                {
+                    "text": "<span class=\"raw__373c0__tQAx6\">Hi Annie,Thank you for the feedback. We are very disappointed to hear about your experience, and this does not come anywhere near our standards of service. We will have a coaching and mentoring session with our team and share your feedback with them. We hope you give us a second chance and come back soon.",
+                    "mycase_score": 2.175,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "My first time here and I got the Paris Milk Tea which is a Caramel Milk Tea with egg pudding and Oreo (I didnt want boba lol). I got 50% sweetness and it was perfect!! Definitely gonna be my new go to boba place near work. Give it a try!! The staff is very friendly and its super cute inside",
+                    "mycase_score": 3.4707491582,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "<span class=\"raw__373c0__tQAx6\">Hi Valerie,We are happy you had a fantastic time with us! Thanks for your trust; were thankful for amazing customers like you. We hope to see you again soon!",
+                    "mycase_score": 3.75,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "My daughter was craving boba tea and saw this place on Yelp nearby where we was at. Got the signature milk tea and the brown sugar milk tea w/50% sweetness. Flavors was all there but my only complaint was that the boba kept clumping up and hard to suck up the straw. Maybe it was sitting in the warmer too long and started to melt together? Either was it still curved the boba crave!!! Wanted to try some of their macaron sand got several flavors. Tiramisu, cookies and cream, earl grey, fruity pebbles, salted Carmel, cotton candy. Not as fresh but cant go wrong with buy 5 and get 1 free!!!",
+                    "mycase_score": 2.3463541667,
+                    "yelp_rating": 2.0
+                },
+                {
+                    "text": "I love the interior design of this place. Its welcoming, cozy, and clean. There were only two workers when I came in. Both of them were super respectful and made our drinks in a timely manner. I got the charcoal milk tea thinking it would taste like black sesame but it was better than I expected! It has a tarty, sweet taste, almost like a sweet potato. I got this drink in 50% sweet and 50% ice and it was still a little too sweet for my liking, but my boyfriend thought it was perfect. The boba is SUPER fresh and soft. You can actually feel the warmth of the boba when you shake your drink. For the charcoal milk tea, I recommend not getting 50% ice though! Maybe get 75% or 100% because the fresh hot boba will melt all of the ice down. I will be back!!!",
+                    "mycase_score": 3.1225198413,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "I want to love this place so bad!!! I have been here a total of 3 times because I like the options they have and I wanted to keep trying it. Unfortunately the last time I was here, I decided to try their yogurt collection as its something that reminds me of my childhood back home. I was so disappointed though :( The boba in my drink was so hot that I was practically drinking HOT YOGURT! I had plenty of ice included in the drink as well but because of the boba my iced yogurt drink was hot and absolutely disgusting. I couldnt even bother to drink half because it wasnt worth the stomach ache. The servers that are there when I go always have an attitude for some reason but I wasnt there for them, I just wanted to try the drinks. Although after my last visit with a rude server + hot yogurt? It was very disappointing :(",
+                    "mycase_score": 2.2317708333,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Not sure if this is the same place/ owners that used to be in the Atlas Market up in Poway (<a href=\"https://www.yelp.com/biz/gotcha-tea-poway-3\">yelp.com/biz/gotcha-tea-\u2026</a>) but we were so sad to see Gotcha Tea in Poway go! The website presents differently but the menu does look the same.. it appears to be a chain so many this is just another instance in San Diego.The boba was delightfully soft and squishy. Honey boba milk tea. 80% sugar, easy ice.. still a bit sweet but it was super satisfying. Definitely will try to go lower in sweetness next time. We also tried the coffee milk tea at 80% still a bit sweet.. but also refreshing.Hubster picked up the order that i placed online and drinks were ready quickly and without issue. Definitely will be back to try more!",
+                    "mycase_score": 2.984375,
+                    "yelp_rating": 4.5
+                },
+                {
+                    "text": "Gotcha you got me!!!! I tried the mango green tea with boba and pieces of mango!!! Man oh man at first sip, this tea from Gotcha had me doing the cha cha!!! I will be back for more. Also if you are craving something sweet check out the totoro macaroon. It tastes just cotton candy.",
+                    "mycase_score": 2.75,
+                    "yelp_rating": 4.5
+                },
+                {
+                    "text": "Came back again and the customer service was pretty bad. The dude was very unfriendly and cold.Anyway i highly recommend the kumquat green tea at 50% sweetness! Its probably my favorite here. I tried the peach milk tea with boba and it was pretty good at first, but at the end it became too frothy. I got that at 100% sweetness n it was a pretty good level. It seems like youd probs want 100% sweetness for milk teas here and 50% for fruit teas.",
+                    "mycase_score": 2.9909090909,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "Hmmm the flavor on their tea is p good but theyre kinda inconsistent on the sweetness of their drinks. here are my take on some of the drinks:-jasmine milk tea w/ boba: got this at 80% sweetness and it was def barely sweet. It tasted like 25% and made me really sad. I could tell the flavor was good tho, so i wouldve really liked it more if it was sweeter-passion fruit mango tea: really liked the flavor of this n there was small chunks of fruit in it. got this at 50% sweetness and it was super sweet?-bamboo charcoal: i believe i got this before at 50% sweetness and it was the perfect sweetness. I really liked how it tasted but it was just so heavy, thick, and creamy. I love charcoal stuff but think this got overwhelming-kumquat tea: got this at 50% sweetness and it was super sweet, really liked the flavor tho",
+                    "mycase_score": 3.3463541667,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "Really nice place. Very casual and comfortable with nice decor. A pretty good study spot with some couches. The drinks are well made with care and taste super good.",
+                    "mycase_score": 3.4635416667,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "<span class=\"raw__373c0__tQAx6\">Hi Kayla,We are happy you had a fantastic time with us! Thanks for your trust; were thankful for amazing customers like you. We hope to see you again soon!",
+                    "mycase_score": 3.75,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "Nice spot. Has good tasting teas and unique drinks on the menu. Teas taste of good quality. Nice interior with good amount of natural lighting.Not many staff, so dont expect to get your drinks right away.",
+                    "mycase_score": 3.8359375,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "I love Gotcha tea!!!!If youre used to boba teas being mainly flavored with just syrups this is not the place for you. Please dont come here and give them a low rating just because you may not be used to stronger tea flavors. They use a variety of really high quality teas, with depth and subtle notes of a variety of flavors. Ive had a misunderstanding or 2 in the ordering process, no biggie. Just be clear with your order. (I know, its hard with masks and such but just keep that in mind, you know?)",
+                    "mycase_score": 2.6077380952,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Located off the 163 away from the main eating area of Convoy, Gotcha Tea is definitely worth a try.I have tried this place several times.I think they were the first ones to start using the boba cups that are shaped like a heart. The design brings a smile to my face.The customer service is friendly all the time. They are not too talkative, but polite.My taro smoothie did not taste like powder. I like that they have milk alternatives here as well so that the drink is easier on my stomach.The coffee smoothie is good too. But then, I am a coffee lover so this item is easy to impress me.Matcha tea: pretty nice, but I felt it was still too sweet despite asking for less sweet. The matcha flavor was not too strong.The Sun-Moon Lake black tea has really good flavor. If you do not like coffee, I suggest you try this black tea.I like that the Gotcha menu is smaller than most boba places, but their offerings are unique compared to most boba places.",
+                    "mycase_score": 3.2083333333,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "YUM!!! My mom went in to get us a tea and they are so dang good! She got me my mango milk tea and she got a peach green tea. We will definitely be back. The teas are so flavorful and the customer service was fabulous. Thank you so so much! :)",
+                    "mycase_score": 3.05,
+                    "yelp_rating": 2.0
+                },
+                {
+                    "text": "<span class=\"raw__373c0__tQAx6\">Hi Annie,Wow! It sounds like you had a good time with us. Thanks for taking the time to share your feedback with us. It means a lot when our customers share their experiences.",
+                    "mycase_score": 3.1171875,
+                    "yelp_rating": 1.0
+                },
+                {
+                    "text": "I ordered a high mountain oolong tea with 25% sugar. Took them a long time to make the tea. The tea is blend it feels like they add a lot of water, boba is really over cooked.",
+                    "mycase_score": 2.7583333333,
+                    "yelp_rating": 3.0
+                },
+                {
+                    "text": "This drink was 5.95 and it was 2/3 full when I got it. The lady said \"no ice\" would be an extra 50cent so I told them its fine if they dont fill it up all the way thinking that it would only be 1inch empty. BUT they only filled it up to 2/3 of the cup. Mind you, this drink was almost $6 and the boba was extra too.I dont usually give bad reviews and I dont really care for customer service. But when it comes to the quality and quantity of the food, this drink does not match up to the price, even when compared to other boba places. The integrity of this boba place is absolutely a sham",
+                    "mycase_score": 2.5291666667,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "The owner is very sweet. Unfortunately, I could say the same for my boba drink. I will try this place again and see what happens.",
+                    "mycase_score": 2.3125,
+                    "yelp_rating": 4.5
+                },
+                {
+                    "text": "Their taro milk tea is the best in town. The owner Phuong-Anh uses real, creamy taro so that you can actually taste the taro bits and pieces, unlike other boba joints where they use nasty artificial syrup and powder to make taro milk tea. Their drinks are warmer than other shops but that doesnt bother me. Adjust the ice and sugar to your liking, then add different types of boba then voil\u00e0, you just complete the order of your most delicious drink. Their brown boba is cooked to perfection, warm and chewy the way boba is supposed to be, not the undercooked versions that let you down after the first bite. If you consider yourself a boba drink purist, get their high quality taro milk tea and be done.",
+                    "mycase_score": 2.8886363636,
+                    "yelp_rating": 4.5
+                },
+                {
+                    "text": "<span class=\"raw__373c0__tQAx6\">Hi Hien,Wow! It sounds like you had a good time with us. Thanks for taking the time to share your feedback with us. It means a lot when our customers share their experiences.",
+                    "mycase_score": 3.1171875,
+                    "yelp_rating": 4.0
+                }
+            ],
+            "shop_restaurant_mc_score": 2.971235565725697
+        },
+        {
+            "id": 2,
+            "name": "DaYung's Tea - Convoy",
+            "yelp_url": "https://www.yelp.com/biz/dayungs-tea-convoy-san-diego",
+            "yelp_rating": 4.5,
+            "reviews": [
+                {
+                    "text": "Everyone here is so nice and I love their fruit teas so much. Ive damn near tried the whole menu!My favorite is the Grapefruit Green tea with less sugar and less ice. :) My sister loves any drink with the Aiyuu Jelly blended into it so if youre interested.. Pink Beauty and Passionfruit Beauty is great. Also if you need any recommendations, they will give great ones!",
+                    "mycase_score": 3.3645833333,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Hmm, been to DaYungs twice and the drinks are somewhat of a miss for me. Perhaps it depends on the drinks I get? I got the Pink Beauty which I read amazing reviews about.ITEMS:- Pink Beauty: supposedly grapefruit with aloe vera and aiyu jelly. it looked like they used a lemon instead for my drink, they told me it wasnt in season and showed me what looked like a lemon. When I drank it, it tasted like lemon. Also, aiyu jelly - I usually like the kind where its a large chunk that when I sip on it it breaks up - the one they use already seems like its broken up so the texture isnt my fave.SERVICE: attentive staff, reasonable wait time, drinks are prepared quickly. PARKING: plenty of parking in one of the plazas on ConvoyPRICE: typical prices for boba, around $4-5. Overall, I would probably be trying out a diff boba shop when Im in the area.",
+                    "mycase_score": 2.777281746,
+                    "yelp_rating": 2.0
+                },
+                {
+                    "text": "Its tucked away in a little corner plaza in convoy but thats kinda a good thing since you can find parking a lot easier. This isnt a sit down place which is kinda a bummer and makes me feel a little claustrophobic.I got the dragon fruit beauty and my husband got the pink beauty (a grapefruit tea with aloe Vera) both drinks are really good and not overly sweet and I do believe you can change the ice and sweetness level as well. My only complaint is we got both drinks with aloe Vera and the aloe Vera is slimy and weird. Like slimy slimy. I like aloe Vera for the crunch so this was just extremely off putting to me. There was every so often that small crunchy aloe Vera Im use to getting but overall it just made the drink not enjoyable to me so I wont order with aloe Vera next time.They also do 5 reward rewards program so if you come often you can get a free drink or toppings!",
+                    "mycase_score": 2.6785714286,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "Super sweet and friendly place ! Took our order right away and were able to enjoy our drinks. I got banana milk tea and I would def get it again. The prices arent too bad, around average for boba place. Very small on the inside so I wouldnt expect to enjoy drinks there. Just order and take it home",
+                    "mycase_score": 2.849537037,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "I am so sad there isnt a DaYung located in NorCal (Silicon Valley)! I fell in love with their fruit teas at first sip! They dont use artificial syrups, its all fresh fruit and you can definitely taste it!Pink Beauty: grapefruit tea with aloe vera and aiyu jelly at 30% sweetness is perfect (and I dont even like grapefruit!)Peach Green tea: peaches so fresh you can see the skin floating in your cup! I believe the peaches are blended with the tea so you dont get huge chunks. I got this at 30% sweetness and I think I could have gone even lower with the addition of aiyu jelly. Jasmine green milk tea: really creamy but thats not necessarily a good thing. Theres an interesting flavor to it that Im not really fond of so I wouldnt get it again. They absolutely know what they are doing when it comes to fruit teas so totally recommend coming for those! They have happy hour BOGO 50% from M-Th 2-5pm. I wish I could get it everyday *cries*",
+                    "mycase_score": 2.9802631579,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Love this place more than their other location due to how nice the workers are here. Their fruit teas are so unique and have great taste and quality to them - so much so that I dont always order boba! My go-to is the strawberry beauty - it has perfect fresh taste for the warmer weather and still has texture from the actual fruit and aiyu jelly. Other places typically have their flavoring and sweetness go hand in hand making it watered down, BUT NOT THIS PLACE! when I order 50% or less the flavors still pack a punch! I consider driving all the way down here from North County SD all the time.",
+                    "mycase_score": 3.3708333333,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "There is too much inconsistency between 2 locations. I always go to the location in Scripps Ranch, but now that I moved, this location is so much closer so I decided to come here instead. My usual is green tea macchiato with extra milk foam, I dont mind paying more for what I want, and they did charge me for the extra milk foam. However, when I got my drink, the amount of milk foam looked exactly the regular one. I asked them about it, but they said they already put double milk foam. The milk foam I got from Scripps Ranch was twice as much as Convoy location. If you want extra milk foam for your drink, dont even order it here since they wont give you what you pay for.Also, I tried their avocado fresh milk, it was too much ice, they didnt blend it very well. I couldnt finish it. I give them 2 stars because their tea is good.",
+                    "mycase_score": 2.7596153846,
+                    "yelp_rating": 2.0
+                },
+                {
+                    "text": "Stop #9 in my pre-covid food tour of SD. This was the perfect end to our day. Parking was in a lot and very easy. The shop still had a few customers around 8:30pm on a Friday but it wasnt too busy and our drinks came out promptly. I ordered the Pink Beauty which was a Grapefruit Tea w/ aloe. And I was so happy with the drink. The grapefruit flavor is so bright and the slight fizziness just enhances the flavor while making the whole drink that much more refreshing. The aloe is the perfect add-on. Its sweet, soft, jello-y texture contrasts so well with the zing of the grapefruit. I love this drink and I would definitely get it again. I wish the tea flavor was a bit more obvious but other than that, very happy with this drink.---The Re-Return: The Pink Beauty---",
+                    "mycase_score": 3.3995098039,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "This review is strictly for the boba milk tea. Boba was fine but the overall drink tasted very watered down and didnt have much of a tea flavor or a milk flavor. Seems like it was fat free milk used? I had light ice but the drink already tasted like a milk tea with ice that had been sitting out for an hour and all the ice had melted. Their fruit drinks looked legit though and that was what everyone was getting when I was there. Sometimes you have to follow the crowd and get what everyone else is getting.",
+                    "mycase_score": 3.2083333333,
+                    "yelp_rating": 2.0
+                },
+                {
+                    "text": "My gf brought me here after my workshop in teaching photography. What a refreshing place to be and so inviting.Ample parking and tucked in a lil corner of this little business center. Very clean, small space, no seating area, modern and cute from the menu to the little details. They have a cute IG wall with their business sign.My friend ordered the avocado milk tea with boba which was delicious. The boba tasted like Caramelized brown sugar. I had the matcha milk tea with no sugar or boba and it was delicious.Friendly and professional staff that are warm and inviting, filled with smiles. They were grateful we stopped by and they were very helpful in helping me choose a milk tea that didnt have a lot of sugar.My friend has had almost everything on the menu and her top pick is the avocado milk tea. I liked everything, thou the price is a little high thou well worth it.Come in and stop by to get a refreshing and yummy drink. Enjoy your visit.",
+                    "mycase_score": 3.2159722222,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "I loved their boba! I used their online ordering system &amp; it was ready by the time I got there. I tried a drink Id never had &amp; it was delicious. They cook their boba very well &amp; their tea tastes fresh. Average prices.",
+                    "mycase_score": 3.525,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Delicious drink and friendly staff! Tapioca pearls were very soft and chewy. Store was clean and easy to find. Plenty of parking spaces",
+                    "mycase_score": 3.6375,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Located in a corner of what looks like an abandoned plaza, easy parking - a first in convoy. The location is small so its more of a grab and go, and they have a good, but small variety of drinks on their menu. Theres some seasonal stuff too and I liked how they tell you what is popular and what not. I got the pink beauty, which is a grapefruit tea. It was really refreshing and not too citrusy either. I liked the aloe in it as well. Price comparable to other places. Overall solid tea, will probably come back to try other drinks.",
+                    "mycase_score": 3.0929487179,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "Im usually not a huge fan of fruit tea but DaYungs is just so good! Its super refreshing, not too sweet (I usually get 25-50% and find the sweetness level here pretty standard), and full of genuine fruit flavor.There is also so much good food in this area so DaYungs is the perfect place to come for a refreshing drink before/after a meal. Its bright, cute, clean, has a lot of menu options, and super delicious. My favorites are the Pink Beauty and the Strawberry Beauty, but Ive never really tried a drink from here that I didnt like! Truly its the freshness thats unique; the drinks here have well-balanced real/natural flavors as opposed to anything artificial. Bonus is that drinks taste good even after a night in the fridge, so if anything you can even get one for today + one for tomorrow :) Highly recommend trying this place!",
+                    "mycase_score": 3.4068333333,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "I was recommended to try this place by a friend as theyre well known for their fruit teas. We ordered the Pink Beauty and Jade Lemon. We appreciate the fact that they use fresh fruit in the drinks rather than syrup. I highly recommend the Pink Beauty if you like a bit of tart in your drink because it has grapefruit. Only to-go for now. Prices are reasonable and theres plenty of parking.",
+                    "mycase_score": 2.73,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "When fresh peach fruit is in season, please do order it because its so good! Fresh bits of fruits inside of the quenching tea. Been here a few times and most drinks were good, well, teas that is. Never tried the milk teas here.",
+                    "mycase_score": 3.75,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "This place is DELICIOUS. I just finished having lunch with my parents and stopped by this tea place to get a drink back up to Orange County.My husband and I ordered the Pink Beauty (grapefruit drink) and Strawberry Fresh Milk, both 50% sweetness. ITS SO GOOD.The Pink Beauty is so refreshing. It has pulp from the fruit, aloe, and is a great balance between tarty and sweet.The Strawberry Fresh Milk tastes like a great mix of strawberry, ice, and condensed milk. It is a familiar taste to my childhood and something my mom would make. My husband says it tastes like ice cream haha.",
+                    "mycase_score": 3.4261363636,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "FIVE STARS FOR THE PEACH GREEN TEA (seasonal), which is one of my favorite drinks Ive ever tasted!! Its seasonal because they use real peaches, and you can definitely tell when you taste the tea. It is so fresh, juicy, and delightful. I hate that fake artificial peach taste, but this is the real deal.I also tried the Pink Beauty. Im not entirely sure what this entire grapefruit drink is made of, but it tastes like lemon + grapegruit + ai-yu which is included in the drink. It is definitely refreshing, and it is a customer favorite. I added boba, which was kind of a mistake because the boba flavor detracts from the light fruity flavor of the drink. Ai-yu is a soft jelly that comes in big blobs. My friends really like this drink. For me, it was alright, maybe slightly above average, haha. I wish I could taste the tea flavor more.Next, I tried the orange green tea. Ive had better, such as the Sunright Fruit Tea or YiFang orange green tea (when it was on their menu). I personally prefer my orange green teas more pulpy and thick so it tastes more fresh, and this one very fine and thin. It is still refreshing, but I dont know if I would crave it and have to get it again.I would definitely come back for the peach green tea! I will need to explore other menu items to find other gems :)",
+                    "mycase_score": 2.719047619,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "I like DaYung I lot and go quite often when I was living in Taiwan. So I was quite excited that they opened in SoCal. Ive been there twice and always utilize the online order. But for some reason, they always out of one of the drinks we ordered. They would called us pretty much right after we placed the order and switched to something else, but I dont understand why they couldnt just take the unavailable drink off from the online menu or mark as unavailable. Nevertheless, the drinks are super good and refreshing especially the fruit teas. My favorites are Jade lemon tea, fruit tea and pink lady. Im a fan and will definitely keep coming back!",
+                    "mycase_score": 3.1268939394,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "Only my second time here and I really like it so far! Convoy is over saturated with boba shops, but DaYung is one of the few that stand out! First time I came here, I got the Jasmine Green Tea. I loved how the tea flavor was very strong and it wasnt overly sweet. This time, I got the Strawberry Beauty because a friend recommended it to me. It was pretty good! It had a good fruity taste with both sweet and sour flavors. Reminded me of a strawberry lemonade but more strawberry flavor and bits. Other notes: dont accept cash (cause of COVID times), contactless payments, theres a limited time drink menu, lots of parking, located in the back right corner of the plaza",
+                    "mycase_score": 3.101984127,
+                    "yelp_rating": 5.0
+                }
+            ],
+            "shop_restaurant_mc_score": 3.1560422440319114
+        },
+        {
+            "id": 3,
+            "name": "CHAKAA Tea House",
+            "yelp_url": "https://www.yelp.com/biz/chakaa-tea-house-san-diego",
+            "yelp_rating": 4.0,
+            "reviews": [
+                {
+                    "text": "Wow Im soooo impressed! This place is a gem. My girlfriend is from LA and weve tried so many boba spots, big or small and were not easily impressed. I got the Creme Br\u00fbl\u00e9e Match (5/5). Highly recommend if you like sweet and creamy drinks. I personally loved it as I like my drinks to be on the sweeter end and this definitely delivered! My girlfriend got their #1 bestseller, Superfruit Tea (5/5) and she also loved it! Its tea with a combination of mixed fruits (orange, lime, lemon, strawberry, passionfruit, and peach(?)) You can definitely taste the tea and it was the perfect sweetness for her. Great if youre looking for a refreshing drink on a hot day. We also were very intrigued by their tea jelly. Its made in house and you can get as as a topping in your drinks or on the side (what we did) with a topping. It was also very delicious! I never expect customer service from boba spots but the customer service here was superb. Shout out to the guy who helped us answer so many questions! This place is definitely underrated and is better than most chained boba spots that only offer basic milk teas and syrup flavored teas. A must try!",
+                    "mycase_score": 3.5663043478,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "eh, not impressed by the drink quality. If im paying close to $5 for a drink, I expect to have more tea flavor come through, especially on a simple milk tea. I ordered the Ruby MT (first time Ive heard of it) and they compared it to a black tea which is stronger than Ceylon MT. I got it 50% sweet with no ice so that I could taste more of the tea flavor, but alas it just tasted like....slightly sweeter milk water? Really neutral. No roasted, robust, creamy, floral or nutty flavor one way or the other. Im hoping I just ordered the wrong drink and that the quality is better it I ever come around next time. Cute aesthetic and drinks. reminds me of OMOMO back in Irvine - however the flavor isnt up to par with them (the price is tho)",
+                    "mycase_score": 2.9848484848,
+                    "yelp_rating": 3.0
+                },
+                {
+                    "text": "5/5 for Customer Service. I have been coming here for the past couple of boba runs and one thing that is constant is their outstanding service. Very friendly people and always happy to help with order suggestions.I have been getting the Fresh Orange Tea drink as it is so hot lately in San Diego. They take a whole orange and blend it in with tea, super refreshing.The fianc\u00e9 got the Ruby Milk Tea. He would definitely recommend doing the Ruby version for milk tea. For milk teas, they offer milk substitutes which is great for us. We got it with soy last time.While we were sitting down with our boba, I love how clean this place is. When the employees are not tending to orders, they are constantly cleaning and sanitizing things. I really appreciate that extra care, especially during these times. Also this location is not as loud as other boba spots, might need to come back and work on wedding planning here.",
+                    "mycase_score": 2.9970238095,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Had to pick up a drink after having kfc next door. We had the Oreo br\u00fbl\u00e9e jasmine tea, and regular milk tea. Both were good. But lacked tea flavor. I like my tea strong though. Service was good.",
+                    "mycase_score": 3.4166666667,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "First timer at Chakaa and I decided to try something new. I saw that the super fruit tea was one of their top drinks so I decided to order that. It was actually really good and refreshing, filled with fresh fruits! My friend order the brown sugar Bobo fresh milk and said that was really good too. Looking forward to trying out their tiramisu and br\u00fbl\u00e9e drinks!",
+                    "mycase_score": 3.5299242424,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "Great boba place in the shopping center its on the corner, very nice decor inside, modern design. Instagram worthy in my opinion. They had a lot of flavors to choose from, from taro to yukult flavors Im all in. I got the Oreo jasmine milk tea 50% sugar and ice. Delicious. My son got the iced strawberry yukult fruit tea and that was also delicious. Cups were very modern. You can use a straw or drink from the cup since it has a little spout. Employees very friendly, great customer service I will definitely come back to this place. Made my day!",
+                    "mycase_score": 3.4655448718,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "I dont usually write reviews but this place is AMAZING! Got the Oreo Brulee Jasmine Milk Tea with half sugar and love the combination of cream and tea flavor. They also use fresh strawberry for the Strawberry Green Tea so it tasted fruity, unlike the artificial sweetness from other boba stores, and the green tea was strong which I really liked.Definitely try out their DELICIOUS tea jelly. They have different toppings for you to choose but my favorite was the pudding and lychee jelly. Swallowed the whole cup within seconds.Will always come back to try more different drinks!",
+                    "mycase_score": 2.8619791667,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "We came here for the first time and ordered the Grapefruit slushy and Superfruit Tea each at 50% sugar. The tea was also 50% less ice. Both were very good and refreshing. The tea had fresh fruit in it so that added to the sweetness. At 50%, they were both quite sweet. Maybe next time I will get even less sugar. But overall, the place was good. The service was very friendly. The interior is spacious but only a few tables to sit. The prices a little on the expensive side but everything seems more expensive these days. You can only get one size for the drinks and the size was decent.",
+                    "mycase_score": 2.9142628205,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "My goodness I missed this place. They are closed for a few weeks and they just now reopened. Im so very happy they are back to business. I have been in all kinds of Boba places, tea places here in San Diego and they are by far the best in taste for me. I mean you have your favorite drink and mine is their ROASTED BR\u00dbL\u00c9E MATCHA my all time favorite since we discovered them months ago. I always do 50% less sugar, just the right amount of sweetness. And the toasted br\u00fbl\u00e9e topping is perfectly done right! Love love this drink, my second favorite is the tiramisu oolong tea. Its more on the chocolately side. Customer Service is great! I come here so often and the guys here are all nice and friendly and most importantly makes my drink just how I wanted it. Shout out to Jackie one of the master in chakaa drinks. Welcome back Chakaa!",
+                    "mycase_score": 3.5703125,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Surprisingly good drink. Tried 2 already and both tasted great. Not sure how long ago theyre opened, and I havent noticed them before. This place did not disappoint knowing theres many boba and tea store here in Convoy. Inside is very clean, with COVID restrictions at the moment. They have hand sanitizer beside the debit machine, otherwise no signs that mask is required and no social distancing marks youll see on the floor. I get it, people are used to wearing one. But let me tell you, there are ones that dont follow the restrictions. That maybe the only one Im not comfortable with this store. Although the employees wear a mask. Tiramisu with oolong milk tea is the one we tried and its so so good. Flavor is creamy but you still can taste the oolong and not overpowering, sweetness is also the right amount. $4.85 plus tax. Parking is not bad, shared with other restaurants and businesses. Time to make our drink is tolerable, coz theres a few people ahead of us. Highly recommend this place and I will try the other flavors next time.",
+                    "mycase_score": 3.2104166667,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "Cute little boba spot in Convoy (interior is very spacious, clean, and nice). They have a variety of drink options for you to pick-from. I ordered the Jasmine Green Tea with boba and a Matcha-drink - both drinks were flavorful and I could taste the roasted tea in my drink. I normally order my drinks extra sweet (100%) and Chakaa nailed it. Although, I got it extra sweet, it wasnt overpowering and I could still tasted the tea to water ratio. The Matcha-drink was nice too (ordered it 50%), so there was more matcha flavor than sugar! The barista took his time to make our boba drinks, which I really appreciative. Theres plenty of parking in the plaza which was great. Give Chakaa a try if youre ever in Convoy, and craving a refreshing boba drink.",
+                    "mycase_score": 3.290922619,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "Stopped in fir a refreshing drink! This place did not disappoint! I got the super fruit tea and let me just tell you! Amazing! The place was clean, the guy working was very friendly and the lit on the cups were a nice touch! Coming back for sure.",
+                    "mycase_score": 3.5234375,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Im very pleased to find this on yelp!! Soo good!! I bought 3 drinks and they are all delicious. The tiramisu one is excellent!! FYI theres a deal on yelp for buy 1 get 1 free tea with Boba. Honestly thats the reason why I tried this place lol so glad to find it!Customer service is excellent!! Right now I think its important to support small business owner as they are struggling. This is a to go only place. But fresh boba and pudding!! So amazing!!",
+                    "mycase_score": 3.9519230769,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "I really enjoy coming here because I know I will be getting really quality tea! Ive been here a good 3-4 times now and Im never disappointed. Drinks are just the right amount of sweetness so if you decrease before trying, it may too bland! Just be aware!I love getting a jasmine milk tea here (my standard). A good standard jasmine milk tea at a boba shop tells me how good the shop is and this one is so good! Super underrated! I wish they got more business because I think they really deserve it!",
+                    "mycase_score": 3.3926282051,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "The boba was pretty soft and not too sweet. The tea itself had a nice real peach flavor; not too artificial! The salted cheese cream wasnt very salty and added a nice sweetness to it. Wasnt the best boba ever, but wasnt the worst.",
+                    "mycase_score": 2.9166666667,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "My brother brought home tea from this place one day and literally had like 3 sips left and asked if I wanted to try it. The answer of course was yes. I enjoyed those 3 sips so much I questioned why he didnt bring me home my own cup. Within the next 2 days he was back at CHAKAA and bought me my very own cup of the Superfruit tea with crystal boba! Needless to say, this is now one of my top tier drinks. Ive been here three times since and have gotten the same exact drink every time. The staff are super friendly and kind and knowledgeable about their drinks. They have other drink options as well, however I am a big tea drinker. I am so glad to have a new drink spot and definitely recommend this to anyone who likes a refreshing tea forward drink!",
+                    "mycase_score": 3.1954816017,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "This place is a hidden gem considering the amount of other boba/tea shops in the area. Theres plenty of available parking in the plaza. The interior is clean, quiet, and well-furnished, and both the drinks and decor are Instagrammable. Also, I really like the way the lids on the iced cups are designed with a built-in cap over the straw hole. The menu has lots of interesting flavors and they appear to use loose-leaf tea to brew some of their concoctions. I enjoyed the taro fresh milk with pudding that I got today. The customer service from the two guys working today was fantastic as they dealt with the early afternoon crowd. The guy who helped me was super friendly, and I can tell that both baristas put a lot of care into the drinks they were making. Im looking forward to trying more of their drinks!",
+                    "mycase_score": 3.1892361111,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Customer service was great and the shop is really cute. The drinks were okay, I would give this place a try if you havent yet.",
+                    "mycase_score": 4.0,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "Super cute and quiet place to do work/study! Their Superfruit Tea is made with green tea and was very refreshing. I ordered 25% sugar and it was still pretty sweet (so I personally wouldve been fine with 0%). I tried some of my sisters Oolong Milk Tea with boba and I think it was one of the best milk teas Ive ever had! We described the taste as \"earthy\" but there was something about the aftertaste that was really nice. Each drink will probably come out to be $5-6, which is a bit pricey but makes sense for the quality and size.",
+                    "mycase_score": 3.3522727273,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Great customer service Alternative milk (soy milk) availableSugar level adjustableLots of parking To go order for Covid reasons I tried the roasted br\u00fbl\u00e9e matcha half sweet and I loved it. It was like a savory matcha.",
+                    "mycase_score": 3.5520833333,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Very good tea! Something so different yet so tasty. Highly recommend especially on cold nights wait for KBBQ! I ordered the hot Date and Goji tea! Its very sweet but not overpowering to me, my boyfriend thought it was good too but would want it cold. My boyfriend ordered the honey Hibiscus hot tea, he slammed it and he loved it. Nice and refreshing good for his throat.",
+                    "mycase_score": 3.1365384615,
+                    "yelp_rating": 5.0
+                }
+            ],
+            "shop_restaurant_mc_score": 3.3342130418896727
+        },
+        {
+            "id": 4,
+            "name": "R&B Tea",
+            "yelp_url": "https://www.yelp.com/biz/r-and-b-tea-san-diego-2?osq=milk+tea",
+            "yelp_rating": 4.5,
+            "reviews": [
+                {
+                    "text": "If you live in the Kearny Mesa/Convoy area of San Diego, you know that you will have absolutely no shortage of boba, milk tea or other specialty drink places to go to. There are definitely a lot of good options but R&amp;B Tea has some standout drinks to set them apart from the other spots. Specifically, their Stormy series of drinks are a must have if you go here. The Stormy drinks are ice-blended drinks and they also mix in this creamy mixture into the drink that makes it so darn good. You can get the Stormy drinks in several different flavors, with some of my favorites being the Taro, Mango and my absolute #1 - the Honeydew! And you know how at some places (that shall remain nameless), you get an ice blended drink but they dont blend it well enough that you start sipping on ice chunks? Well not here. They have gotten it perfectly blended every time, which makes it so easy to drink. In fact, my only complaint is that its so easy to drink that the one-size drink makes me want it an extra-large cup! So. Good.",
+                    "mycase_score": 3.1567234848,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "PRO-TIP: If you check-in on Yelp, you can get 1 free topping (tho the server forgot mine...). I ordered a large chocolate oreo milk tea with tiramisu cream and boba. I didnt get the boba and my drink was not a large...At that point the line was already out the door, so I didnt want to waste anymore time than what I had already. Overall, just tastes like a cookies and cream drink with some slight tea after taste. Not bad. There are more of these chains opening up closer to me and they are open pretty late in comparison to other cafes, so maybe Ill have more luck there.",
+                    "mycase_score": 2.2494047619,
+                    "yelp_rating": 3.0
+                },
+                {
+                    "text": "The Chula Vista location is wayyyy better than this one. The drinks taste more refreshing over there and the selection is better in Chula, like they have dragon fruit green tea at the CV location and not here and it sucks.The cashier here was nice and answered all my questions.I ordered a passion fruit green tea without aloe but it STILL had small chunks of aloe in it. And man I freakin hate aloe so much, but I had already left and was not gonna go back to get it fixed.Also this place doesnt have wifi, like wtf!? Ive never been to a boba shop without wifi. This place sucks for that. It would be a good study spot if they actually had wifi.",
+                    "mycase_score": 2.7019230769,
+                    "yelp_rating": 1.0
+                },
+                {
+                    "text": "Tried:--------1. House milk tea w/ boba - Super creamy and the brown sugar gives the drink extra flavor. Boba itself had good flavor also2. Jasmine milk tea - Super creamy. Wouldve wanted more floral flavor but solid green tea taste.3. Wintermelon green milk tea - You can taste the wintermelon flavor and it wasnt too sweet because you can adjust the sugar. Drink was super creamy also. Shout out to the workers Lauren and Melissa!! They were super nice and chill and answered all our questions.",
+                    "mycase_score": 3.0871212121,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "I got the honey green tea from here and it was yummy! I also got two other drinks in my photo for my friends and they liked them too! The parking lot can be a little small but I didnt have trouble getting a spot. They have a good amount of seating inside as well!",
+                    "mycase_score": 2.6927083333,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Just returned from a business trip and the wife met me at the airport and when I got in the car there was Thai Ice Tea with Boba in my cup holder. It was absolutely delicious and by the looks of the receipt reasonably priced. My new Goto!",
+                    "mycase_score": 3.6136363636,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "So I am usually pretty skeptical when it comes to Americanized places and their sugar level because they usually make the sugar levels higher than any other Asian boba shops, but I am surprised how spot on they were with their sugar level! Especially since I have sensitive teeth and my teeth dont do too well with sugar, even though I eat/drink boba and desserts loooooolbut anyways, the drinks were pretty good! My drink was actually on the bitter side because of how low of the sugar I asked, so I know what to get next time when I visit R&amp;B again! The boba was pretty okay, but the tea tastes better than the boba!",
+                    "mycase_score": 2.8203125,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "This R&amp;B Tea is located in a very small plaza with limited parking in the front. It can be a challenge parking in the lot with the surrounding busy streets and all the cars driving in, out, and around. If you cannot find a spot in the lot, you will need to go searching for other nearby lots or street parking. The staff was friendly and our drinks were made quickly. The menu has a variety of drinks such as teas, milks, milk teas, blended drinks, coffee. And there are several flavor options for each. You can also choose the ice and sweetness levels to your drinks. We ended up ordering two drinks - a Brown Sugar Boba Milk and a Honeydew Stormy. At first, we did not like the Brown Sugar much. But then we mixed it up and it tasted so much better. The boba was nice, fresh, and soft with a good chew to it. The Honeydew Stormy is an ice blended drink. We really enjoyed that one and it was very refreshing. No fake honeydew taste like we have had at other places. Both drinks ended up being great and full of flavor. The drinks come in sturdy cups which we appreciated. We will be back to try more!",
+                    "mycase_score": 3.0983630952,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Funnily enough, I completely forgot an R&amp;B Tea opened in the South Bay a few months ago, but am glad I ended up checking out their location in San Diego! They are located in the Convoy area, and it wasnt busy around noon on a Tuesday. I debated between their fruit teas and milk teas for a while, but ending up trying the Blossom Pineapple (Passionfruit, Pineapple, $4.90 + $0.50 Aloe Vera, <a href=\"https://www.yelp.com/user_local_photos?select=5emOetRkto5aV06V88SK3g&amp;userid=76vIFZcC7owykCBjMfGVXg\">yelp.com/user_local_phot\u2026</a>) since the passionfruit/pineapple combination sounded really unique. Im glad I did, since it was delicious! Their passionfruit tea was super fresh, and it was perfect at 25% sweetness. There were so many pineapple bits, and they were sweet and juicy. The aloe vera was really good, but I didnt need it with all the pineapple bits. For caffeine sensitive people, note that their teas are STRONG. I finished my rink around 2-2:30pm and still couldnt sleep until 24 hours later.My friend got their Hawaiian fruit tea and loved it, and it had giant pieces of fruit in it! I will definitely be back to try their Hawaiian fruit tea, milk teas (especially their cereal milk tea), and boba! All staff were wearing masks appropriately. Indoor seating is available, but no outdoor seating. Parking will be the most difficult part about coming here, since their shared lot is really small, and the spots are super squishy.",
+                    "mycase_score": 3.2786458333,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Atmosphere in the boba shop feels amazing &amp; laid back with good jams. There is a variety of things you can order and the menu is not cluttered so its easy to read. Visited R&amp;B Tea on Monday at approximately 3:30pm and ordered Matcha Stormy with boba which costed $5.87 (after tax). It wasnt busy so I got my drink in a few minutes. The drink was yummmmyy, just the right amount of sweetness and consistency. The drink also has some sea salt cream which is a nice mixture with everything in the cup. As soon as I received the drink, I felt the warm boba at the bottom and the drink itself looked very pleasant. The boba was very soft and has a bit of sweetness to it, just the way I like it, no plain boba here! Overall my first experience was great, I would definitely come back and try their other drinks",
+                    "mycase_score": 3.1722470238,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "If you live in the Kearny Mesa/Convoy area of San Diego, you know that you will have absolutely no shortage of boba, milk tea or other specialty drink places to go to. There are definitely a lot of good options but R&amp;B Tea has some standout drinks to set them apart from the other spots. Specifically, their Stormy series of drinks are a must have if you go here. The Stormy drinks are ice-blended drinks and they also mix in this creamy mixture into the drink that makes it so darn good. You can get the Stormy drinks in several different flavors, with some of my favorites being the Taro, Mango and my absolute #1 - the Honeydew! And you know how at some places (that shall remain nameless), you get an ice blended drink but they dont blend it well enough that you start sipping on ice chunks? Well not here. They have gotten it perfectly blended every time, which makes it so easy to drink. In fact, my only complaint is that its so easy to drink that the one-size drink makes me want it an extra-large cup! So. Good.",
+                    "mycase_score": 3.1567234848,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "PRO-TIP: If you check-in on Yelp, you can get 1 free topping (tho the server forgot mine...). I ordered a large chocolate oreo milk tea with tiramisu cream and boba. I didnt get the boba and my drink was not a large...At that point the line was already out the door, so I didnt want to waste anymore time than what I had already. Overall, just tastes like a cookies and cream drink with some slight tea after taste. Not bad. There are more of these chains opening up closer to me and they are open pretty late in comparison to other cafes, so maybe Ill have more luck there.",
+                    "mycase_score": 2.2494047619,
+                    "yelp_rating": 3.0
+                },
+                {
+                    "text": "The Chula Vista location is wayyyy better than this one. The drinks taste more refreshing over there and the selection is better in Chula, like they have dragon fruit green tea at the CV location and not here and it sucks.The cashier here was nice and answered all my questions.I ordered a passion fruit green tea without aloe but it STILL had small chunks of aloe in it. And man I freakin hate aloe so much, but I had already left and was not gonna go back to get it fixed.Also this place doesnt have wifi, like wtf!? Ive never been to a boba shop without wifi. This place sucks for that. It would be a good study spot if they actually had wifi.",
+                    "mycase_score": 2.7019230769,
+                    "yelp_rating": 1.0
+                },
+                {
+                    "text": "Tried:--------1. House milk tea w/ boba - Super creamy and the brown sugar gives the drink extra flavor. Boba itself had good flavor also2. Jasmine milk tea - Super creamy. Wouldve wanted more floral flavor but solid green tea taste.3. Wintermelon green milk tea - You can taste the wintermelon flavor and it wasnt too sweet because you can adjust the sugar. Drink was super creamy also. Shout out to the workers Lauren and Melissa!! They were super nice and chill and answered all our questions.",
+                    "mycase_score": 3.0871212121,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "I got the honey green tea from here and it was yummy! I also got two other drinks in my photo for my friends and they liked them too! The parking lot can be a little small but I didnt have trouble getting a spot. They have a good amount of seating inside as well!",
+                    "mycase_score": 2.6927083333,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Just returned from a business trip and the wife met me at the airport and when I got in the car there was Thai Ice Tea with Boba in my cup holder. It was absolutely delicious and by the looks of the receipt reasonably priced. My new Goto!",
+                    "mycase_score": 3.6136363636,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "So I am usually pretty skeptical when it comes to Americanized places and their sugar level because they usually make the sugar levels higher than any other Asian boba shops, but I am surprised how spot on they were with their sugar level! Especially since I have sensitive teeth and my teeth dont do too well with sugar, even though I eat/drink boba and desserts loooooolbut anyways, the drinks were pretty good! My drink was actually on the bitter side because of how low of the sugar I asked, so I know what to get next time when I visit R&amp;B again! The boba was pretty okay, but the tea tastes better than the boba!",
+                    "mycase_score": 2.8203125,
+                    "yelp_rating": 4.0
+                },
+                {
+                    "text": "This R&amp;B Tea is located in a very small plaza with limited parking in the front. It can be a challenge parking in the lot with the surrounding busy streets and all the cars driving in, out, and around. If you cannot find a spot in the lot, you will need to go searching for other nearby lots or street parking. The staff was friendly and our drinks were made quickly. The menu has a variety of drinks such as teas, milks, milk teas, blended drinks, coffee. And there are several flavor options for each. You can also choose the ice and sweetness levels to your drinks. We ended up ordering two drinks - a Brown Sugar Boba Milk and a Honeydew Stormy. At first, we did not like the Brown Sugar much. But then we mixed it up and it tasted so much better. The boba was nice, fresh, and soft with a good chew to it. The Honeydew Stormy is an ice blended drink. We really enjoyed that one and it was very refreshing. No fake honeydew taste like we have had at other places. Both drinks ended up being great and full of flavor. The drinks come in sturdy cups which we appreciated. We will be back to try more!",
+                    "mycase_score": 3.0983630952,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Funnily enough, I completely forgot an R&amp;B Tea opened in the South Bay a few months ago, but am glad I ended up checking out their location in San Diego! They are located in the Convoy area, and it wasnt busy around noon on a Tuesday. I debated between their fruit teas and milk teas for a while, but ending up trying the Blossom Pineapple (Passionfruit, Pineapple, $4.90 + $0.50 Aloe Vera, <a href=\"https://www.yelp.com/user_local_photos?select=5emOetRkto5aV06V88SK3g&amp;userid=76vIFZcC7owykCBjMfGVXg\">yelp.com/user_local_phot\u2026</a>) since the passionfruit/pineapple combination sounded really unique. Im glad I did, since it was delicious! Their passionfruit tea was super fresh, and it was perfect at 25% sweetness. There were so many pineapple bits, and they were sweet and juicy. The aloe vera was really good, but I didnt need it with all the pineapple bits. For caffeine sensitive people, note that their teas are STRONG. I finished my rink around 2-2:30pm and still couldnt sleep until 24 hours later.My friend got their Hawaiian fruit tea and loved it, and it had giant pieces of fruit in it! I will definitely be back to try their Hawaiian fruit tea, milk teas (especially their cereal milk tea), and boba! All staff were wearing masks appropriately. Indoor seating is available, but no outdoor seating. Parking will be the most difficult part about coming here, since their shared lot is really small, and the spots are super squishy.",
+                    "mycase_score": 3.2786458333,
+                    "yelp_rating": 5.0
+                },
+                {
+                    "text": "Atmosphere in the boba shop feels amazing &amp; laid back with good jams. There is a variety of things you can order and the menu is not cluttered so its easy to read. Visited R&amp;B Tea on Monday at approximately 3:30pm and ordered Matcha Stormy with boba which costed $5.87 (after tax). It wasnt busy so I got my drink in a few minutes. The drink was yummmmyy, just the right amount of sweetness and consistency. The drink also has some sea salt cream which is a nice mixture with everything in the cup. As soon as I received the drink, I felt the warm boba at the bottom and the drink itself looked very pleasant. The boba was very soft and has a bit of sweetness to it, just the way I like it, no plain boba here! Overall my first experience was great, I would definitely come back and try their other drinks",
+                    "mycase_score": 3.1722470238,
+                    "yelp_rating": 5.0
+                }
+            ],
+            "shop_restaurant_mc_score": 2.987108568514819
         }
     ]
 }

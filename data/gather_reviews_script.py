@@ -83,9 +83,10 @@ proxies = (get_proxies())
 
 desert_urls_parent = [
     'https://www.yelp.com/biz/sharetea-san-diego-13',
-    # 'https://www.yelp.com/biz/gotcha-tea-san-diego',
-    # 'https://www.yelp.com/biz/dayungs-tea-convoy-san-diego',
-    # 'https://www.yelp.com/biz/chakaa-tea-house-san-diego',
+    'https://www.yelp.com/biz/gotcha-tea-san-diego',
+    'https://www.yelp.com/biz/dayungs-tea-convoy-san-diego',
+    'https://www.yelp.com/biz/chakaa-tea-house-san-diego',
+    'https://www.yelp.com/biz/r-and-b-tea-san-diego-2?osq=milk+tea'
 ]
 
 
@@ -277,6 +278,7 @@ for shop in list_of_restaurants:
         new_object["reviews"].append(review_object)
         
     data["data"].append(new_object)
+    id+=1
     
 json_object = json.dumps(data, indent = 4)
 file_name = "data.json"
