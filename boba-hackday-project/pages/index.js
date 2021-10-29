@@ -2,11 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import BobaShopCard from '../components/BobaShopCard'
+import bobaTea from '../public/bubble-tea.jpg'
 
 export default function Home() {
   const JSON_DATA = [
     {
-      name: 'tan cha',
+      name: 'Tan Cha',
       yelp_rating: 4,
       shop_restaurant_mc_score: 2.5,
       yelp_url: 'www.yelp.com',
@@ -17,8 +18,59 @@ export default function Home() {
           mycase_review: 4,
         }
       ],
+    },
+    {
+      name: 'Boba Shop',
+      yelp_rating: 3.4,
+      shop_restaurant_mc_score: 3.8,
+      yelp_url: 'www.yelp.com',
+      reviews: [
+        {
+          text: 'great place',
+          yelp_review: 4,
+          mycase_review: 4,
+        }
+      ],
+    },
+    {
+      name: 'Tapioca Express',
+      yelp_rating: 3.3,
+      shop_restaurant_mc_score: 2.7,
+      yelp_url: 'www.yelp.com',
+      reviews: [
+        {
+          text: 'great place',
+          yelp_review: 4,
+          mycase_review: 4,
+        }
+      ],
+    },
+    {
+      name: 'Ocha Tea Cafe',
+      yelp_rating: 3.4,
+      shop_restaurant_mc_score: 3,
+      yelp_url: 'www.yelp.com',
+      reviews: [
+        {
+          text: 'great place',
+          yelp_review: 4,
+          mycase_review: 4,
+        }
+      ],
     }
   ]
+
+  const sort_by_key = (data, key) => {
+    return data.sort((a, b) =>
+    {
+      var x = a[key]; 
+      var y = b[key];
+      return ((x > y) ? -1 : ((x < y) ? 1 : 0));
+    });
+  }
+
+  const sortedData = sort_by_key(JSON_DATA, 'shop_restaurant_mc_score');
+
   return (
     <div className={styles.container}>
       <Head>
@@ -28,6 +80,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <Image 
+          src={bobaTea} 
+          alt="boba tea" 
+          width={300}
+          height={300}
+        />
         <h1 className={styles.title}>
           Boba Hack Day
         </h1>
@@ -37,8 +95,8 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          {JSON_DATA && JSON_DATA.map((shopData, index) => 
-            <BobaShopCard 
+          {sortedData && sortedData.map((shopData, index) => 
+            <BobaShopCard
               key={`boba-shop-${index}`} 
               bobaShop={shopData}
             />)
