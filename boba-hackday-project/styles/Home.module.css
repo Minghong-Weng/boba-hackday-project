@@ -179,3 +179,14 @@
   max-height: 180px;
   overflow-y: scroll;
 }
+
+.translate {
+  transform: translateY(0.1em);
+  margin-right: 0.2em;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
