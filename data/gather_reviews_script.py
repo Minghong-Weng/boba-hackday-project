@@ -83,9 +83,10 @@ proxies = (get_proxies())
 
 desert_urls_parent = [
     'https://www.yelp.com/biz/sharetea-san-diego-13',
-    # 'https://www.yelp.com/biz/gotcha-tea-san-diego',
-    # 'https://www.yelp.com/biz/dayungs-tea-convoy-san-diego',
-    # 'https://www.yelp.com/biz/chakaa-tea-house-san-diego',
+    'https://www.yelp.com/biz/gotcha-tea-san-diego',
+    'https://www.yelp.com/biz/dayungs-tea-convoy-san-diego',
+    'https://www.yelp.com/biz/chakaa-tea-house-san-diego',
+    'https://www.yelp.com/biz/r-and-b-tea-san-diego-2?osq=milk+tea'
 ]
 
 
@@ -137,7 +138,7 @@ def convert_star_rating_to_val(star_rating):
 
 
 for url in desert_urls_parent:
-    count = 0
+    
     new_dict = {}
     
     proxy = urllib.request.ProxyHandler({'https': proxies})
@@ -161,14 +162,33 @@ for url in desert_urls_parent:
     
     url_reviews = []
     url_ratings = []
-    while 1:
+    count = 0
+    cycles = 0
+    while cycles < 2:
         new_url = url + '?start=' + str(count)
         temp = get_raw_review_data(new_url)
+        review_num = len(temp)
+        
+        #if request fails do it again
+        if len(temp) == 0:
+            continue
     
         
         sub_count = 0
         
-        for EachPart in soup.select('div[class*="i-stars"]'):
+        proxy = urllib.request.ProxyHandler({'https': proxies})
+        opener = urllib.request.build_opener()
+        website = opener.open(new_url)
+        
+        html = website.read()
+        soup = BeautifulSoup(html, "html.parser")
+        
+        yelp_ratings = soup.select('div[class*="i-stars"]')
+        
+        if len(yelp_ratings) <= 0:
+            continue
+        
+        for EachPart in yelp_ratings:
             rating = EachPart['aria-label']
             
             if sub_count == 0:
@@ -176,7 +196,7 @@ for url in desert_urls_parent:
             else:
                 url_ratings.append(convert_star_rating_to_val(rating))
             sub_count+=1
-            if sub_count == 11:
+            if sub_count == (review_num + 1):
                 break
         
         
@@ -186,16 +206,13 @@ for url in desert_urls_parent:
         else:
             break
         
-        break
         count+=10
-        time.sleep(20)
+        cycles+=1
     
     new_dict["reviews"] = url_reviews
     new_dict["yelp_ratings"] = url_ratings
     
     list_of_restaurants.append(new_dict)
-
-#print(list_of_restaurants)
 
 def avg_word(review):
     words = review.split()
@@ -203,10 +220,16 @@ def avg_word(review):
 
 
 # prepare data
+id = 0
+
+data = {
+        "data": []
+}
 for shop in list_of_restaurants:
     
     new_object = {}
     
+    new_object["id"] = id
     new_object["name"] = shop["shop_name"]
     new_object["yelp_url"] = shop["yelp_url"]
     new_object["yelp_rating"] = shop["yelp_rating"]
@@ -238,15 +261,12 @@ for shop in list_of_restaurants:
     df['mycase_score'] = df['polarity'].apply(lambda x: (float(x) + 1 ) * 2.5 )
     df['yelp_rating'] = shop["yelp_ratings"]
     
-    #sys.exit()
-    
     average = df['mycase_score'].sum() / len( df['mycase_score'])
     new_object["shop_restaurant_mc_score"] = average
     
     
    
 
-    #sys.exit()
     result = df.to_json(orient="records")
     parsed = json.loads(result)
     
@@ -257,8 +277,10 @@ for shop in list_of_restaurants:
         review_object["yelp_rating"] = df_object["yelp_rating"]
         new_object["reviews"].append(review_object)
         
+    data["data"].append(new_object)
+    id+=1
     
-    json_object = json.dumps(new_object, indent = 4)
-    file_name = new_object["name"].replace(" ", "_") + ".json"
-    with open(file_name, "w") as outfile:
+json_object = json.dumps(data, indent = 4)
+file_name = "data.json"
+with open(file_name, "w") as outfile:
         outfile.write(json_object)
