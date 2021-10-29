@@ -36,6 +36,8 @@ url1 = 'https://www.yelp.com/biz/sharetea-san-diego-13'
 
 url = 'https://www.yelp.com/biz/sharetea-san-diego-13?start=0'
 
+isSdFlag = False
+
 
 
 def getHTMLdocument(url):
@@ -81,7 +83,7 @@ proxies = (get_proxies())
 
 # get boba urls
 
-desert_urls_parent = [
+sd_urls = [
     'https://www.yelp.com/biz/sharetea-san-diego-13',
     'https://www.yelp.com/biz/gotcha-tea-san-diego',
     'https://www.yelp.com/biz/dayungs-tea-convoy-san-diego',
@@ -104,7 +106,28 @@ desert_urls_parent = [
     'https://www.yelp.com/biz/boba-bar-and-desserts-san-diego'
 ]
 
-
+irv_urls = [
+    'https://www.yelp.com/biz/presotea-irvine-irvine-3',
+    'https://www.yelp.com/biz/ola-cha-costa-mesa',
+    'https://www.yelp.com/biz/sunright-tea-studio-diamond-jamboree-center-irvine',
+    'https://www.yelp.com/biz/hntea-organic-tea-house-harvard-ave-irvine-10',
+    'https://www.yelp.com/biz/feng-cha-teahouse-costa-mesa-4',
+    'https://www.yelp.com/biz/ding-tea-irvine-irvine-4',
+    'https://www.yelp.com/biz/leaf-n-cream-tustin-4',
+    'https://www.yelp.com/biz/boba-guys-costa-mesa',
+    'https://www.yelp.com/biz/pink-pig-irvine',
+    'https://www.yelp.com/biz/boba-junkie-santa-ana-santa-ana',
+    'https://www.yelp.com/biz/cha-for-tea-irvine-9',
+    'https://www.yelp.com/biz/sharetea-santa-ana-2',
+    'https://www.yelp.com/biz/tastea-irvine-10',
+    'https://www.yelp.com/biz/boba-square-tustin-18',
+    'https://www.yelp.com/biz/sharetea-irvine-3'
+    #'https://www.yelp.com/biz/orobae-irvine',
+    #'https://www.yelp.com/biz/omomo-tea-shoppe-irvine',
+    #'https://www.yelp.com/biz/eightfold-tea-shoppe-costa-mesa-2',
+    #'https://www.yelp.com/biz/milk-and-honey-costa-mesa?',
+    #'https://www.yelp.com/biz/cherubic-tea-irvine-7'
+]
 
 # get reviews function
 
@@ -152,8 +175,12 @@ def convert_star_rating_to_val(star_rating):
     return float(rating_parts[0])
 
 restaurant_num = 1
-print("Generating Restaurants...")
-for url in desert_urls_parent:
+print("Generating Boba Shops...")
+
+def generateBobaShopsList():
+    return sd_urls if isSdFlag else irv_urls
+
+for url in generateBobaShopsList():
     
     new_dict = {}
     hasProcessed = False
@@ -258,6 +285,9 @@ for shop in list_of_restaurants:
     
     new_object = {}
     
+    if (len(shop["yelp_ratings"])) != len(shop["reviews"]):
+        continue
+    
     new_object["id"] = id
     new_object["name"] = shop["shop_name"]
     new_object["yelp_url"] = shop["yelp_url"]
@@ -310,6 +340,6 @@ for shop in list_of_restaurants:
     id+=1
     
 json_object = json.dumps(data, indent = 4)
-file_name = "data.json"
+file_name = "data.json" if isSdFlag else "irvine.json"
 with open(file_name, "w") as outfile:
         outfile.write(json_object)
