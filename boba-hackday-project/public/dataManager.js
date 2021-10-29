@@ -1,42 +1,60 @@
-import SD_JSON_DATA from './data.json'
-import IRVINE_JSON_DATA from './irvine.json'
+import SD_JSON_DATA from "./san_diego.json";
+import IRVINE_JSON_DATA from "./irvine.json";
 
 class DataManager {
-  
-  static getSDRestaurant(id) {
+  sdMap;
+  irvineMap;
 
-    const map = new Map();
+  constructor() {
+    this.irvineMap = new Map();
+    this.sdMap = new Map();
+
     for (var k of Object.keys(SD_JSON_DATA)) {
-      map.set(k, SD_JSON_DATA[k]);
+      this.sdMap.set(k, SD_JSON_DATA[k]);
     }
 
-    const restaurant_data = map.get(String(id));
-    const data = {
-      name: restaurant_data.name,
-      yelp_url: restaurant_data.yelp_url,
-      yelp_rating: restaurant_data.yelp_rating,
-      shop_restaurant_mc_score: restaurant_data.shop_restaurant_mc_score,
-      reviews: restaurant_data.reviews,
+    for (var k of Object.keys(IRVINE_JSON_DATA)) {
+      this.irvineMap.set(k, IRVINE_JSON_DATA[k]);
     }
-    return data;
   }
 
-  static getIrvineRestaurant(id) {
-
-    const map = new Map();
-    for (var k of Object.keys(IRVINE_JSON_DATA)) {
-      map.set(k, IRVINE_JSON_DATA[k]);
+  static getInstance() {
+    if (!DataManager.instance) {
+      DataManager.instance = new DataManager();
     }
+    return DataManager.instance;
+  }
 
-    const restaurant_data = map.get(String(id));
-    const data = {
-      name: restaurant_data.name,
-      yelp_url: restaurant_data.yelp_url,
-      yelp_rating: restaurant_data.yelp_rating,
-      shop_restaurant_mc_score: restaurant_data.shop_restaurant_mc_score,
-      reviews: restaurant_data.reviews,
+  getSDRestaurant(id, includeReviews = false) {
+    const restaurant_data = this.sdMap.get(String(id));
+    if (!includeReviews) {
+      const data = {
+        id: restaurant_data.id,
+        name: restaurant_data.name,
+        yelp_url: restaurant_data.yelp_url,
+        yelp_rating: restaurant_data.yelp_rating,
+        shop_restaurant_mc_score: restaurant_data.shop_restaurant_mc_score,
+      };
+      return data;
+    } else {
+      return restaurant_data;
     }
-    return data;
+  }
+
+  getIrvineRestaurant(id, includeReviews = false) {
+    const restaurant_data = this.irvineMap.get(String(id));
+    if (!includeReviews) {
+      const data = {
+        id: restaurant_data.id,
+        name: restaurant_data.name,
+        yelp_url: restaurant_data.yelp_url,
+        yelp_rating: restaurant_data.yelp_rating,
+        shop_restaurant_mc_score: restaurant_data.shop_restaurant_mc_score,
+      };
+      return data;
+    } else {
+      return restaurant_data;
+    }
   }
 }
 
