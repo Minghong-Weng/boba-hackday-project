@@ -86,7 +86,22 @@ desert_urls_parent = [
     'https://www.yelp.com/biz/gotcha-tea-san-diego',
     'https://www.yelp.com/biz/dayungs-tea-convoy-san-diego',
     'https://www.yelp.com/biz/chakaa-tea-house-san-diego',
-    'https://www.yelp.com/biz/r-and-b-tea-san-diego-2?osq=milk+tea'
+    'https://www.yelp.com/biz/r-and-b-tea-san-diego-2',
+    'https://www.yelp.com/biz/kung-fu-tea-san-diego',
+    'https://www.yelp.com/biz/luxe-boba-and-teaco-san-diego-2',
+    'https://www.yelp.com/biz/camellia-rd-tea-bar-san-diego-3',
+    'https://www.yelp.com/biz/boba-bar-and-desserts-san-diego-2',
+    'https://www.yelp.com/biz/tan-cha-san-diego',
+    'https://www.yelp.com/biz/go-heart-tea-bar-san-diego',
+    'https://www.yelp.com/biz/happy-lemon-san-diego-2',
+    'https://www.yelp.com/biz/gong-cha-san-diego',
+    'https://www.yelp.com/biz/the-korean-rose-san-diego',
+    'https://www.yelp.com/biz/mngo-cafe-san-diego',
+    'https://www.yelp.com/biz/vivi-bubble-tea-san-diego-2',
+    'https://www.yelp.com/biz/matcha-cafe-maiko-san-diego',
+    'https://www.yelp.com/biz/sharetea-san-diego-2',
+    'https://www.yelp.com/biz/its-boba-time-san-diego-san-diego',
+    'https://www.yelp.com/biz/boba-bar-and-desserts-san-diego'
 ]
 
 
@@ -136,27 +151,38 @@ def convert_star_rating_to_val(star_rating):
     rating_parts = star_rating.split(" ")
     return float(rating_parts[0])
 
-
+restaurant_num = 1
+print("Generating Restaurants...")
 for url in desert_urls_parent:
     
     new_dict = {}
+    hasProcessed = False
     
-    proxy = urllib.request.ProxyHandler({'https': proxies})
-    opener = urllib.request.build_opener()
-    website = opener.open(url)
+    print("Getting name of Boba Shop...")
     
-    html = website.read()
-    soup = BeautifulSoup(html, "html.parser")
+    while hasProcessed == False:
     
-    #yelp rating
+        proxy = urllib.request.ProxyHandler({'https': proxies})
+        opener = urllib.request.build_opener()
+        website = opener.open(url)
+        
+        html = website.read()
+        soup = BeautifulSoup(html, "html.parser")
+        
+        #yelp rating
+        
+        
+        # get name
+        headers =soup.findAll("h1", {"class": "css-m7s7xv"})
+        if len(headers) == 0:
+            continue
     
-    
-    # get name
-    headers =soup.findAll("h1", {"class": "css-m7s7xv"})
-    new_dict["shop_name"] = headers[0].text
-    
-    # yelp url
-    new_dict["yelp_url"] = url
+        
+        new_dict["shop_name"] = headers[0].text
+        
+        # yelp url
+        new_dict["yelp_url"] = url
+        break
     
     # reviews
     
@@ -164,6 +190,7 @@ for url in desert_urls_parent:
     url_ratings = []
     count = 0
     cycles = 0
+    print("Getting Actual Reviews...")
     while cycles < 2:
         new_url = url + '?start=' + str(count)
         temp = get_raw_review_data(new_url)
@@ -213,6 +240,8 @@ for url in desert_urls_parent:
     new_dict["yelp_ratings"] = url_ratings
     
     list_of_restaurants.append(new_dict)
+    print("Finished Restaurant " + str(restaurant_num))
+    restaurant_num+=1
 
 def avg_word(review):
     words = review.split()
