@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 var review
-fs.readFile('./data/data.json', 'utf8', (err, jsonString) => {
+fs.readFile('../../data/data.json', 'utf8', (err, jsonString) => {
   if (err) {
     console.log("Error reading file from disk:", err)
     return
