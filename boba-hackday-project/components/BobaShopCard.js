@@ -28,7 +28,14 @@ export default function BobaShopCard({ bobaShop }) {
                     </p>
                 </a>
             </Link>
-            <a href={ bobaShop.yelp_url } className={styles.yelpURL} target="_blank">Visit on Yelp</a>
+            <a 
+                href={ bobaShop.yelp_url } 
+                className={styles.yelpURL} 
+                target="_blank" 
+                rel="noreferrer"
+            >
+                Visit on Yelp
+            </a>
         </div>
      </>
  )
