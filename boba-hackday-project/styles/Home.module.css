@@ -143,3 +143,37 @@
     flex-direction: column;
   }
 }
+
+.icon {
+  margin: 7px;
+  text-align: center;
+}
+
+.reviewbox {
+  margin: 20px;
+}
+
+.reviewcard {
+  background-color: #fafafa;
+  margin: 1rem;
+  padding: 1.5rem;
+  /* text-align: left; */
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  /* transition: color 0.15s ease, border-color 0.15s ease; */
+  /* max-width: 300px; */
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 0, 0, 0.2));
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.reviewtext {
+  margin-bottom: 10px
+}
