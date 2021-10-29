@@ -1,6 +1,10 @@
 import styles from "../styles/Home.module.css";
 import { Rating } from "@mui/material";
 import Link from "next/link";
+import Image from 'next/image';
+
+import yelpIcon from "../images/yelp.png";
+import mycaseIcon from "../images/mycase.png";
 
 export default function BobaShopCard({ bobaShop, location }) {
   return (
@@ -10,7 +14,12 @@ export default function BobaShopCard({ bobaShop, location }) {
           <a>
             <h2>{bobaShop.name}</h2>
             <p className={styles.rating}>
-              <span>MyCase Review: </span>
+              <div className={styles.flex}>
+                <div className={styles.translate}>
+                  <Image src={mycaseIcon} alt="mycase icon" width={22} height={20} />
+                </div>
+                MyCase Rating
+              </div>
               <Rating
                 name="mycase-rating"
                 defaultValue={bobaShop.shop_restaurant_mc_score}
@@ -19,7 +28,12 @@ export default function BobaShopCard({ bobaShop, location }) {
               />
             </p>
             <p className={styles.rating}>
-              <span>Yelp Review: </span>
+              <div className={styles.flex}>
+                <div className={styles.translate}>
+                  <Image src={yelpIcon} alt="yelp icon" width={24} height={24} />
+                </div>
+                Yelp Rating
+              </div>
               <Rating
                 name="yelp-rating"
                 defaultValue={bobaShop.yelp_rating}
