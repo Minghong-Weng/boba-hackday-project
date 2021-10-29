@@ -115,14 +115,6 @@
   line-height: 1.5;
 }
 
-.card a {
-  color: #d32323;
-}
-
-.card a:hover {
-  color: #d17777;
-}
-
 .logo {
   height: 1em;
   margin-left: 0.5rem;
@@ -135,6 +127,14 @@
 
 .yelpURL {
   text-align: right;
+}
+
+.card > .yelpURL {
+  color: #d32323;
+}
+
+.card > .yelpURL:hover {
+  color: #d17777;
 }
 
 @media (max-width: 600px) {

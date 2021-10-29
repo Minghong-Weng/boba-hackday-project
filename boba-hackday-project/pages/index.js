@@ -7,10 +7,11 @@ import bobaTea from '../public/bubble-tea.jpg'
 export default function Home() {
   const JSON_DATA = [
     {
+      id: 0,
       name: 'Tan Cha',
       yelp_rating: 4,
       shop_restaurant_mc_score: 2.5,
-      yelp_url: 'www.yelp.com',
+      yelp_url: 'https://www.yelp.com/',
       reviews: [
         {
           text: 'great place',
@@ -20,10 +21,11 @@ export default function Home() {
       ],
     },
     {
+      id: 1,
       name: 'Boba Shop',
       yelp_rating: 3.4,
       shop_restaurant_mc_score: 3.8,
-      yelp_url: 'www.yelp.com',
+      yelp_url: 'https://www.yelp.com/',
       reviews: [
         {
           text: 'great place',
@@ -33,10 +35,11 @@ export default function Home() {
       ],
     },
     {
+      id: 2,
       name: 'Tapioca Express',
       yelp_rating: 3.3,
       shop_restaurant_mc_score: 2.7,
-      yelp_url: 'www.yelp.com',
+      yelp_url: 'https://www.yelp.com/',
       reviews: [
         {
           text: 'great place',
@@ -46,10 +49,11 @@ export default function Home() {
       ],
     },
     {
+      id: 3,
       name: 'Ocha Tea Cafe',
       yelp_rating: 3.4,
       shop_restaurant_mc_score: 3,
-      yelp_url: 'www.yelp.com',
+      yelp_url: 'https://www.yelp.com/',
       reviews: [
         {
           text: 'great place',
