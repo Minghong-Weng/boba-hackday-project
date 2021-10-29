@@ -4,65 +4,25 @@ import styles from '../styles/Home.module.css'
 import BobaShopCard from '../components/BobaShopCard'
 import bobaTea from '../public/bubble-tea.jpg'
 
-export default function Home() {
-  const JSON_DATA = [
-    {
-      id: 0,
-      name: 'Tan Cha',
-      yelp_rating: 4,
-      shop_restaurant_mc_score: 2.5,
-      yelp_url: 'https://www.yelp.com/',
-      reviews: [
-        {
-          text: 'great place',
-          yelp_review: 4,
-          mycase_review: 4,
-        }
-      ],
-    },
-    {
-      id: 1,
-      name: 'Boba Shop',
-      yelp_rating: 3.4,
-      shop_restaurant_mc_score: 3.8,
-      yelp_url: 'https://www.yelp.com/',
-      reviews: [
-        {
-          text: 'great place',
-          yelp_review: 4,
-          mycase_review: 4,
-        }
-      ],
-    },
-    {
-      id: 2,
-      name: 'Tapioca Express',
-      yelp_rating: 3.3,
-      shop_restaurant_mc_score: 2.7,
-      yelp_url: 'https://www.yelp.com/',
-      reviews: [
-        {
-          text: 'great place',
-          yelp_review: 4,
-          mycase_review: 4,
-        }
-      ],
-    },
-    {
-      id: 3,
-      name: 'Ocha Tea Cafe',
-      yelp_rating: 3.4,
-      shop_restaurant_mc_score: 3,
-      yelp_url: 'https://www.yelp.com/',
-      reviews: [
-        {
-          text: 'great place',
-          yelp_review: 4,
-          mycase_review: 4,
-        }
-      ],
-    }
-  ]
+import * as React from 'react';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
+
+import DataManager from '../public/dataManager.js'
+
+export async function getStaticProps(context) {
+  const SD_JSON_DATA = [];
+  const IRVINE_JSON_DATA = [];
+
+  for (var i=0; i < 20; i ++) { 
+    SD_JSON_DATA.push(DataManager.getSDRestaurant(i));
+  }
+
+  for (var i=0; i < 8; i ++) { 
+    IRVINE_JSON_DATA.push(DataManager.getIrvineRestaurant(i));
+  }
 
   const sort_by_key = (data, key) => {
     return data.sort((a, b) =>
@@ -73,7 +33,32 @@ export default function Home() {
     });
   }
 
-  const sortedData = sort_by_key(JSON_DATA, 'shop_restaurant_mc_score');
+  const sortedSDData = sort_by_key(SD_JSON_DATA, 'shop_restaurant_mc_score');
+  const sortedIrvineData = sort_by_key(IRVINE_JSON_DATA, 'shop_restaurant_mc_score');
+
+  return {
+    props: {
+      sortedSDData: sortedSDData,
+      sortedIrvineData: sortedIrvineData
+    }, // will be passed to the page component as props
+  }
+}
+
+
+export default function Home({ sortedSDData, sortedIrvineData }) {
+  const [location, setLocation] = React.useState('San Diego');
+
+  const handleChange = (event) => {
+    setLocation(event.target.value);
+  };
+
+  var currentData;
+
+  if (location == 'San Diego') {
+    currentData = sortedSDData;
+  } else if (location == 'Irvine') {
+    currentData = sortedIrvineData;
+  }
 
   return (
     <div className={styles.container}>
@@ -98,8 +83,22 @@ export default function Home() {
           Using natural language processing to give boba shops a more accurate rating based on customer reviews.
         </p>
 
+        <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+          <InputLabel id="demo-simple-select-standard-label">Office Location</InputLabel>
+          <Select
+            labelId="demo-simple-select-standard-label"
+            id="demo-simple-select-standard"
+            value={location}
+            onChange={handleChange}
+            label="Location"
+          >
+            <MenuItem value={"San Diego"}>San Diego</MenuItem>
+            <MenuItem value={"Irvine"}>Irvine</MenuItem>
+          </Select>
+        </FormControl>
+
         <div className={styles.grid}>
-          {sortedData && sortedData.map((shopData, index) => 
+          {currentData && currentData.map((shopData, index) => 
             <BobaShopCard
               key={`boba-shop-${index}`} 
               bobaShop={shopData}
