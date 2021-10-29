@@ -207,17 +207,11 @@ for url in desert_urls_parent:
         
         count+=10
         cycles+=1
-        #time.sleep(20)
     
     new_dict["reviews"] = url_reviews
     new_dict["yelp_ratings"] = url_ratings
     
     list_of_restaurants.append(new_dict)
-
-#print(len(new_dict["reviews"]))
-#print(len(new_dict["yelp_ratings"]))
-#sys.exit()
-#print(list_of_restaurants)
 
 def avg_word(review):
     words = review.split()
@@ -266,15 +260,12 @@ for shop in list_of_restaurants:
     df['mycase_score'] = df['polarity'].apply(lambda x: (float(x) + 1 ) * 2.5 )
     df['yelp_rating'] = shop["yelp_ratings"]
     
-    #sys.exit()
-    
     average = df['mycase_score'].sum() / len( df['mycase_score'])
     new_object["shop_restaurant_mc_score"] = average
     
     
    
 
-    #sys.exit()
     result = df.to_json(orient="records")
     parsed = json.loads(result)
     
