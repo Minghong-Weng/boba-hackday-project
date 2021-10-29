@@ -137,7 +137,7 @@ def convert_star_rating_to_val(star_rating):
 
 
 for url in desert_urls_parent:
-    count = 0
+    
     new_dict = {}
     
     proxy = urllib.request.ProxyHandler({'https': proxies})
@@ -161,12 +161,22 @@ for url in desert_urls_parent:
     
     url_reviews = []
     url_ratings = []
-    while 1:
+    count = 0
+    cycles = 0
+    while 1 and cycles < 2:
         new_url = url + '?start=' + str(count)
         temp = get_raw_review_data(new_url)
+        review_num = len(temp)
     
         
         sub_count = 0
+        
+        proxy = urllib.request.ProxyHandler({'https': proxies})
+        opener = urllib.request.build_opener()
+        website = opener.open(new_url)
+        
+        html = website.read()
+        soup = BeautifulSoup(html, "html.parser")
         
         for EachPart in soup.select('div[class*="i-stars"]'):
             rating = EachPart['aria-label']
@@ -176,7 +186,7 @@ for url in desert_urls_parent:
             else:
                 url_ratings.append(convert_star_rating_to_val(rating))
             sub_count+=1
-            if sub_count == 11:
+            if sub_count == (review_num + 1):
                 break
         
         
@@ -186,8 +196,8 @@ for url in desert_urls_parent:
         else:
             break
         
-        break
         count+=10
+        cycles+=1
         time.sleep(20)
     
     new_dict["reviews"] = url_reviews
@@ -195,6 +205,9 @@ for url in desert_urls_parent:
     
     list_of_restaurants.append(new_dict)
 
+#print(len(new_dict["reviews"]))
+#print(len(new_dict["yelp_ratings"]))
+#sys.exit()
 #print(list_of_restaurants)
 
 def avg_word(review):
